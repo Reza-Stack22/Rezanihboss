@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simulasi Tata Surya Interaktif dengan Nama Planet">
+    <meta name="author" content="Your Name">
+    <title>Simulasi Tata Surya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Simulasi Tata Surya</h1>
+        <h2>Metode Euler</h2>
+        <p>Definisi</p> 
+        <p>digunakan untuk memprediksi posisi dan kecepatan benda langit dengan langkah waktu tetap.</p>
+    </div>
+    
+    <div class="tata-surya">
+        <div class="matahari">
+            <div class="info">Matahari</div>
+        </div>
+        <div class="orbit merkurius">
+            <div class="planet" style="background-color: #9e9e9e;"><span class="planet-name">Merkurius</span></div>
+        </div>
+        <div class="orbit venus">
+            <div class="planet" style="background-color: #f4a460;"><span class="planet-name">Venus</span></div>
+        </div>
+        <div class="orbit bumi">
+            <div class="planet" style="background-color: #1e90ff;">
+                <span class="planet-name">Bumi</span>
+                <div class="bulan" style="background-color: #dcdcdc;"></div>
+            </div>
+        </div>
+        <div class="orbit mars">
+            <div class="planet" style="background-color: #ff4500;"><span class="planet-name">Mars</span></div>
+        </div>
+        <div class="orbit yupiter">
+            <div class="planet" style="background-color: #ffcc00;"><span class="planet-name">Yupiter</span></div>
+        </div>
+        <div class="orbit saturnus">
+            <div class="planet" style="background-color: #e5e4e2;"><span class="planet-name">Saturnus</span></div>
+        </div>
+        <div class="orbit uranus">
+            <div class="planet" style="background-color: #00ffff;"><span class="planet-name">Uranus</span></div>
+        </div>
+        <div class="orbit neptunus">
+            <div class="planet" style="background-color: #4169e1;"><span class="planet-name">Neptunus</span></div>
+        </div>
+    </div>
+
+    <!-- Tombol Kembali ke Halaman Sebelumnya -->
+    <div class="back-button">
+        <button onclick="history.back()">Kembali ke Halaman Sebelumnya</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

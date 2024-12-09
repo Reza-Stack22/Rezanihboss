@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #fff;
+            width: 350px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center; /* Center text and content */
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Circle shape */
+            border: 3px solid #007bff;
+            margin-bottom: 20px;
+            object-fit: cover; /* Ensure image is centered inside the circle */
+        }
+
+        .card h1 {
+            font-size: 22px;
+            margin: 10px 0;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .info span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .button {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .button a {
+            text-decoration: none;
+            background: #007bff;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button a:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 80%;
+                padding: 20px;
+            }
+
+            .card h1 {
+                font-size: 20px;
+            }
+
+            .card img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="reza.jpeg" alt="Foto Profil">
+        <h1>Reza Ramadhan</h1>
+        <p><i>Mahasiswa</i></p>
+        <div class="info">
+            <p><span>NIM:</span> 123290069</p>
+            <p><span>Asal Kampus:</span> Institut Teknologi Sumatera</p>
+            <p><span>Program Studi:</span> Sains Atmosfer Dan Keplanetan</p>
+            <p><span>Hobi:</span> Main Kamera, Nonton Anime</p>
+        </div>
+        <div class="button">
+            <a href="https://www.instagram.com/rezaramadhan9599/profilecard/?igsh=YWk2cGozeGY4dHNs" target="_blank">Hubungi Saya</a>
+        </div>
+    </div>
+</body>
+</html>
